@@ -6,7 +6,7 @@ class Instabot:
 
     def __init__(self,username,pw):
 
-        self.driver = webdriver.Chrome('C://Users//shubham//PycharmProjects//webScrapping//chromedriver.exe')
+        self.driver = webdriver.Chrome('C://Users//yout path for selenium chrome driver//chromedriver.exe')
         self.driver.get("https://www.instagram.com/")
         time.sleep(3)
         if username == 'if you want to login with instagram login password':
